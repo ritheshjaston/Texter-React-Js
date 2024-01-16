@@ -27,6 +27,8 @@ function App() {
         </Route>
         <Route path='/lower' element={<Texter title={"Lowercase Convert"} placehold={"Enter Text Here"} handler={"lower"} />}>
         </Route>
+        <Route path='/convertxml' element={<Texter title={"HTML To XML Convert"} placehold={"Enter Text Here"} handler={"xml"} />}>
+        </Route>
         <Route path='/about' element={<About/>}>
         </Route>
         <Route path='/contact' element={<Constact/>}>
