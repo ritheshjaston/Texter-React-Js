@@ -14,7 +14,13 @@ export default function Text(props) {
             setdata(data.toUpperCase());
         }else if(props.handler=="lower"){
             setdata(data.toLowerCase());
-        }
+        }else if(props.handler=="xml"){
+          var htmlString=data;
+          var parser = new DOMParser();
+          var doc = parser.parseFromString(htmlString, 'text/html');
+          var xmlString = new XMLSerializer().serializeToString(doc);
+          setdata(xmlString);
+      }
     }
     const copyToClipboard = () => {
         navigator.clipboard.writeText(data);
