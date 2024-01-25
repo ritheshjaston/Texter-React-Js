@@ -1,6 +1,12 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/ritheshjaston/Texter-React-Js/main/Snapshots/shot1.png"/>
+<img src="https://raw.githubusercontent.com/ritheshjaston/Texter-React-Js/main/Snapshots/shot2.png"/>
+<img src="https://raw.githubusercontent.com/ritheshjaston/Texter-React-Js/main/Snapshots/shot3.png"/>
+<img src="https://raw.githubusercontent.com/ritheshjaston/Texter-React-Js/main/Snapshots/shot4.png"/>
+<img src="https://raw.githubusercontent.com/ritheshjaston/Texter-React-Js/main/Snapshots/shot5.png"/>
+
 
 ## Available Scripts
 
