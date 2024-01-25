@@ -4,6 +4,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 .lefttab {
   background-color: black;
@@ -11,8 +12,11 @@ html, body {
   margin-left: 0;
   padding-left: 0;
   /* height: 800px; */
-  overflow-x: hidden;
-      overflow-y: auto;
+  /* overflow-x: hidden; */
+  
+      /* overflow-y: auto; */
+      height: auto;
+      overflow: hidden;
 }
 .inner .img {
   margin: auto;
@@ -26,13 +30,18 @@ html, body {
   color: white;
   display: block;
   padding-left: 40%;
+  overflow-y: scroll;
+  
 }
 .texter {
   background-color: yellow;
   width: 70%;
   margin-left: 0;
   padding-left: 0;
-  height: 800px;
+  /* overflow-x: hidden; */
+  overflow-y: hidden;
+  height: auto;
+  overflow-y: scroll;
 }
 .homer {
   background-color: #fdd4ab;
