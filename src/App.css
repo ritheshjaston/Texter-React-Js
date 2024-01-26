@@ -131,3 +131,7 @@ body {
   width: 100%;
   background-color: #fdd4ab;
 }
+
+#hometext{
+  text-align: center;
+}
